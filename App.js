@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const tags = React.createElement("div",{Id:"parent"},React.createElement("div",{id:"subparent"},[
