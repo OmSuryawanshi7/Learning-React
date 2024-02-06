@@ -4,6 +4,8 @@
   "description": "we are learning react",
   
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -19,5 +21,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist":[
+    "last 2 versions "
+  ]
+  
 }
